@@ -17,7 +17,7 @@
   "gnetId": null,
   "graphTooltip": 2,
   "id": 1,
-  "iteration": 1671008774216,
+  "iteration": 1671028140187,
   "links": [],
   "panels": [
     {
@@ -50,12 +50,12 @@
                   "value": null
                 },
                 {
-                  "color": "dark-green",
-                  "value": 70
+                  "color": "#EAB839",
+                  "value": 35
                 },
                 {
-                  "color": "#EAB839",
-                  "value": 100
+                  "color": "dark-green",
+                  "value": 70
                 }
               ]
             },
@@ -142,7 +142,7 @@
           ],
           "defaults": {
             "mappings": [],
-            "max": 50,
+            "max": 100,
             "min": 0,
             "nullValueMode": "connected",
             "thresholds": {
@@ -154,11 +154,11 @@
                 },
                 {
                   "color": "#EAB839",
-                  "value": 17.5
+                  "value": 35
                 },
                 {
                   "color": "semi-dark-green",
-                  "value": 35
+                  "value": 70
                 }
               ]
             },
@@ -702,5 +702,5 @@
   "variables": {
     "list": []
   },
-  "version": 2
+  "version": 3
 }
