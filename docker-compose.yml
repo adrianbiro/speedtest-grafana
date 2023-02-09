@@ -32,7 +32,7 @@ services:
     image: frdmn/speedtest-grafana:latest
     container_name: speedtest
     environment:
-      - "SPEEDTEST_INTERVAL=${SPEEDTEST_SPEEDTEST_INTERVAL:-3600}"
+      - "SPEEDTEST_INTERVAL=${SPEEDTEST_INTERVAL:-3600}"
       - "SPEEDTEST_HOST=${SPEEDTEST_HOST:-local}"
     depends_on:
       - influxdb
