@@ -2,6 +2,7 @@ module gospeedtest
 
 go 1.19
 
+<<<<<<< HEAD
 require (
 	github.com/influxdata/influxdb-client-go/v2 v2.12.2
 	github.com/showwin/speedtest-go v1.3.1
@@ -14,3 +15,8 @@ require (
 	golang.org/x/net v0.0.0-20210119194325-5f4716e94777 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 )
+=======
+require github.com/showwin/speedtest-go v1.3.1
+
+require golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
+>>>>>>> origin/go-speed
